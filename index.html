@@ -10,19 +10,22 @@
         <link rel = "stylesheet" href = "css/basic.css"/>
 
     </head>
-    <body>
-        <div class = "container-md">
-            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active rounded-5" id="home-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link rounded-5" id="profile-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link rounded-5" id="contact-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
-                </li>
-            </ul>
+    <body class = "bg-dark">
+        <div class = "container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32"><use href="#"></use></svg>
+                  <span class="fs-4 text-primary">Landing</span>
+                </a>
+          
+                <ul class="nav nav-pills">
+                  <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                  <li class="nav-item"><a href="games.html" class="nav-link">Games</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link"></a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+                  <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                </ul>
+            </header>
             <div class="accordion-flush" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
