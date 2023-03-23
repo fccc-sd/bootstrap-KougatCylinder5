@@ -10,7 +10,7 @@
     </head>
     <body class = "bg-dark">
         <div class = "container">
-            <nav class="navbar navbar-expand-md bg-body-tertiary border-bottom">
+            <nav class="navbar navbar-expand-sm bg-body-tertiary border-bottom">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">Navbar</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,6 +25,72 @@
                     </div>
                 </div>
             </nav>
+            <div class = "row my-2">
+                <div class = "row-sm-12 text-center border-bottom">
+                    <h1>Games By:</h1>
+                    <h3>Cory Mavis</h3>
+                </div>
+            </div>
+            <div class = "row my-2">
+                <div class = "col-md-6">
+                    <div class="accordion bg-dark text-light" id="accordionExample">
+                        <div class="accordion-item bg-secondary">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Pong
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body ">
+                                    <p>
+                                        &emsp;How almost every programmer begins to learn the basics. A simple Pong game that demonstates learned skills.     
+                                    </p>
+                                    <a href="https://greenfoot.org/scenarios/30106">Game</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-secondary text-light">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Spring Trapped
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        &emsp;The second of my big projects, this was an attempt at a large world that could be explored. Having a limited amount of time to escape you must collect springs to extend your life.
+                                    </p>
+                                    <a href="https://greenfoot.org/scenarios/30422">Game</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-secondary text-light">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    An Isolated Forest
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        &emsp;An Isolated Forest is a wave based defense where you go around and collect items. However, waves of enemies come to attack you; starting with your trusty whip to repel the hoards of enemies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-xl-block row ">
+                <div class = "col-lx-12 justify-content-center border-top my-3">
+                    <iframe src="https://greenfoot.org/scenarios/30106?embed=true" style="width: 800px;height: 640px;"></iframe>
+                </div>
+                <div class = "col-lx-12 justify-content-center border-top my-3">
+                    <iframe src="https://greenfoot.org/scenarios/30422?embed=true" style="width: 920px;height: 930px;"></iframe>
+                </div>
+            </div>
+            
+            
         </div>
         <script src = "js/bootstrap.bundle.js"></script>
     </body>
